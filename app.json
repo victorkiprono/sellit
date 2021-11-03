@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "SitakiTena",
+    "slug": "SitakiTena",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#e63c4b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"ke.onion.sitakitena",
+      "versionCode":1,
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "description": "E-commerce for selling items you don't need anymore."
+  }
+}
